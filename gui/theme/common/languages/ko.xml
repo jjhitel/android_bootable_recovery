@@ -127,7 +127,7 @@
 		<string name="factory_resetting">공장 초기화중...</string>
 		<string name="advanced_wipe_hdr">고급 초기화</string>
 		<string name="advanced_wipe_btn">고급 초기화</string>
-		<string name="wipe_enc_confirm">데이터의 암화화를 초기화 하시겠습니까?</string>
+		<string name="wipe_enc_confirm">데이터의 암호화를 초기화 하시겠습니까?</string>
 		<string name="formatting_data">데이터 포맷중...</string>
 		<string name="swipe_format_data">밀어서 데이터 포맷</string>
 		<string name="swipe_format_data_s">   데이터 포맷</string>
