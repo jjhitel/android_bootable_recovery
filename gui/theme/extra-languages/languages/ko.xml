@@ -277,8 +277,10 @@
 		<!--공식 소프트웨어 업데이트를 적용하기 쉽도록 TWRP에서 system 파티션을 편집 하지 않도록 할 수 있습니다.-->
 		<string name="sys_rop1">TWRP can leave your system partition unmodified</string>
 		<string name="sys_rop2">to make it easier for you to take official updates.</string>
+		<!--TWRP는 공식 소프트웨어에서 TWRP를 제거하려는 시도를 방지할 수 없으며, 이는 당신의 기기에 루트권한을 부여하지 못할 수 있습니다.-->
 		<string name="sys_rop3">TWRP will be unable to prevent the stock ROM from</string>
 		<string name="sys_rop4">replacing TWRP and will not offer to root your device.</string>
+		<!--zip파일들을 설치하거나 adb 명령어 작업은 당신의 시스템 파티션에 대해 변경이 가능할 것 입니다.-->
 		<string name="sys_rop5">Installing zips or performing adb operations may still</string>
 		<string name="sys_rop6">modify the system partition.</string>
 		<string name="sys_rol1">TWRP can leave your system partition unmodified to make it easier for you to take official updates.</string>
@@ -294,9 +296,9 @@
 		<string name="settings_gen_btn">기본</string>
 		<string name="use_rmrf_chk">초기화 대신 rm -rf를 사용합니다.</string>
 		<string name="use24clock_chk">24시간 형식 사용</string>
-		<string name="rev_navbar_chk">네비게이션바 레이아웃 뒤집기</string>
-		<string name="simact_chk">Simulate actions for theme testing</string>
-		<string name="simfail_chk">Simulate failure for actions</string>
+		<string name="rev_navbar_chk">네비게이션바 레이아웃 반전</string>
+		<string name="simact_chk">테마 테스트를 위해 가상동작모드 활성화</string>
+		<string name="simfail_chk">기능 시뮬레이션 실패</string>
 		<string name="ctr_navbar_rdo">가운데 네비게이션바 버튼</string>
 		<string name="lft_navbar_rdo">왼쪽 네비게이션바 버튼</string>
 		<string name="rht_navbar_rdo">오른쪽 네비게이션바 버튼</string>
@@ -334,7 +336,7 @@
 		<string name="utcp10">(UTC +10) 동 오스트레일리아, 괌</string>
 		<string name="utcp11">(UTC +11) 블라디보스토크, 솔로몬 제도</string>
 		<string name="utcp12">(UTC +12) 오클랜드, 웰링턴, 피지</string>
-		<string name="sel_tz_offset">Select Offset (usually 0): %tw_time_zone_guioffset%</string>
+		<string name="sel_tz_offset">오프셋 선택 (초기설정 0): %tw_time_zone_guioffset%</string>
 		<string name="tz_offset_none">없음</string>
 		<string name="tz_offset_0">0</string>
 		<string name="tz_offset_15">15</string>
@@ -378,7 +380,7 @@
 		<string name="inject_twrp_confirm">Re-Inject TWRP?</string>
 		<string name="injecting_twrp">Re-Injecting TWRP...</string>
 		<string name="inject_twrp_complete">TWRP Injection Complete</string>
-		<string name="swipe_to_confirm">Swipe to Confirm</string>
+		<string name="swipe_to_confirm">밀어서 확인</string>
 		<string name="part_sd_hdr">SD 카드 분할</string>
 		<string name="invalid_partsd_sel">이동식 저장소를 선택하세요.</string>
 		<string name="part_sd_lose">SD 카드의 모든 파일을 삭제 합니다!</string>
@@ -432,8 +434,8 @@
 		<string name="fm_sel_dest">대상 폴더를 선택하세요.</string>
 		<string name="fm_sel_curr_folder">최근 폴더 선택</string>
 		<string name="fm_rename_hdr">이름 변경</string>
-		<string name="fm_set_perms_hdr">퍼미션 적용</string>
-		<string name="fm_perms">퍼미션:</string>
+		<string name="fm_set_perms_hdr">권한 적용</string>
+		<string name="fm_perms">권한:</string>
 		<string name="fm_complete">파일 작업 완료</string>
 		<string name="decrypt_data_hdr">데이터 복호화</string>
 		<string name="decrypt_data_enter_pass">비밀번호를 입력하세요.</string>
@@ -459,17 +461,17 @@
 		<string name="fix_contexts_note3">사용자의 장치를 정상적으로 작동할 수 없게 할 수 있습니다.</string>
 		<string name="swipe_to_fix_contexts">밀어서 Contexts 복구</string>
 		<string name="swipe_fix_contexts">   Contexts 복구</string>
-		<string name="fixing_contexts">Contexts 복구 중...</string>
+		<string name="fixing_contexts">Contexts 복구 중</string>
 		<string name="fix_contexts_complete">Contexts 복구 완료</string>
 		<string name="reboot_hdr">재부팅</string>
 		<string name="su_hdr">SuperSU 확인</string>
 		<string name="su_note1">사용자의 디바이스가 루팅 되어 있지 않습니다.</string>
 		<string name="su_note2">지금 SuperSU를 설치하시겠습니까?</string>
 		<string name="su_note3">이 작업은 사용자의 디바이스를 루팅시킵니다.</string>
-		<string name="su_cancel">설치 안함</string>
+		<string name="su_cancel">지금은 설치하지 않음</string>
 		<string name="swipe_su_to_install">밀어서 설치</string>
 		<string name="swipe_su_install">   설치</string>
-		<string name="su_installing">SuperSU 설치중</string>
+		<string name="su_installing">SuperSU 설치중...</string>
 		<string name="sel_storage_list">저장소 선택</string>
 		<string name="ok_btn">확인</string>
 
