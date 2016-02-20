@@ -660,7 +660,7 @@
 		<string name="auto_gen">(자동 생성)</string>
 		<string name="curr_date">(현재 날짜)</string>
 		<string name="backup_name_len">백업 이름이 너무 깁니다.</string>
-		<string name="backup_name_invalid">백업 이름 '{1}'에 사용할 수없는 문고가 포함되어 있습니다: '{1}'</string>
+		<string name="backup_name_invalid">백업 이름 '{1}'에 사용할 수없는 문자가 포함되어 있습니다: '{1}'</string>
 		<string name="no_real_sdcard">이 장치는 SD카드가 없습니다! 작업을 취소합니다!</string>
 		<string name="cancel_sideload">ADB sideload를 취소하는 중...</string>
 		<string name="change_fs_err">파일 시스템을 교체하는 중 오류가 발생하였습니다.</string>
