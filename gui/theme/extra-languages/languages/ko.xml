@@ -407,7 +407,7 @@
 		<string name="dumlock_install_complete">HTC Dumlock 설치 완료</string>
 		<string name="swipe_to_unlock">밀어서 잠금 해제</string>
 		<string name="swipe_unlock">잠금 해제</string>
-		<string name="fm_hdr">파일 매니저</string>
+		<string name="fm_hdr">파일 관리자</string>
 		<string name="fm_sel_file">파일 혹은 폴더 선택</string>
 		<string name="fm_type_folder">폴더</string>
 		<string name="fm_type_file">파일</string>
@@ -443,7 +443,7 @@
 		<string name="term_hdr">터미널 명령어</string>
 		<string name="term_s_hdr">터미널</string>
 		<string name="term_kill_btn">종료</string>
-		<string name="term_sel_folder_hdr">Browse to Starting Folder</string>
+		<string name="term_sel_folder_hdr">초기폴더로 이동</string>
 		<string name="adb_sideload_hdr">ADB Sideload</string>
 		<string name="sideload_wipe_dalvik_chk">달빅 캐시 초기화</string>
 		<string name="sideload_wipe_cache_chk">캐시 초기화</string>
